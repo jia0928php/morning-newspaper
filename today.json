@@ -7,138 +7,175 @@
         "word": "約束",
         "reading": "やくそく",
         "romaji": "yakusoku",
-        "meaning": "promise, appointment, commitment"
+        "meaning": "promise; appointment; commitment"
+      },
+      {
+        "word": "財布",
+        "reading": "さいふ",
+        "romaji": "saifu",
+        "meaning": "wallet; purse"
+      },
+      {
+        "word": "遅刻",
+        "reading": "ちこく",
+        "romaji": "chikoku",
+        "meaning": "being late; tardiness"
+      },
+      {
+        "word": "連絡",
+        "reading": "れんらく",
+        "romaji": "renraku",
+        "meaning": "contact; communication; getting in touch"
       },
       {
         "word": "疲れる",
         "reading": "つかれる",
         "romaji": "tsukareru",
-        "meaning": "to get tired, to become exhausted"
-      },
-      {
-        "word": "急ぐ",
-        "reading": "いそぐ",
-        "romaji": "isogu",
-        "meaning": "to hurry, to rush"
-      },
-      {
-        "word": "丁寧",
-        "reading": "ていねい",
-        "romaji": "teinei",
-        "meaning": "polite, careful, thorough"
-      },
-      {
-        "word": "準備",
-        "reading": "じゅんび",
-        "romaji": "junbi",
-        "meaning": "preparation, getting ready"
+        "meaning": "to get tired; to become exhausted"
       }
     ],
     "sentences": [
       {
-        "japanese": "明日の会議に遅れないように急いでください。",
-        "reading": "あしたのかいぎにおくれないようにいそいでください。",
-        "romaji": "Ashita no kaigi ni okurenai you ni isoide kudasai.",
-        "english": "Please hurry so you are not late for tomorrow's meeting."
+        "japanese": "財布を家に忘れてしまいました。",
+        "reading": "さいふをいえにわすれてしまいました。",
+        "romaji": "Saifu wo ie ni wasurete shimaimashita.",
+        "english": "I accidentally left my wallet at home."
       },
       {
-        "japanese": "長い一日で本当に疲れました。",
-        "reading": "ながいいちにちでほんとうにつかれました。",
-        "romaji": "Nagai ichinichi de hontou ni tsukaremashita.",
-        "english": "I am really tired after such a long day."
+        "japanese": "電車が遅れて、会議に遅刻しました。",
+        "reading": "でんしゃがおくれて、かいぎにちこくしました。",
+        "romaji": "Densha ga okurete, kaigi ni chikoku shimashita.",
+        "english": "The train was delayed, so I was late to the meeting."
       },
       {
-        "japanese": "友達と週末に会う約束をしました。",
-        "reading": "ともだちとしゅうまつにあうやくそくをしました。",
-        "romaji": "Tomodachi to shuumatsu ni au yakusoku wo shimashita.",
-        "english": "I made a promise to meet my friend on the weekend."
+        "japanese": "何かあったら、すぐに連絡してください。",
+        "reading": "なにかあったら、すぐにれんらくしてください。",
+        "romaji": "Nanika attara, sugu ni renraku shite kudasai.",
+        "english": "If anything comes up, please contact me right away."
       },
       {
-        "japanese": "旅行の前に荷物の準備をしておきましょう。",
-        "reading": "りょこうのまえににもつのじゅんびをしておきましょう。",
-        "romaji": "Ryokou no mae ni nimotsu no junbi wo shite okimashou.",
-        "english": "Let's prepare our luggage before the trip."
+        "japanese": "今日はとても疲れたので、早く寝ます。",
+        "reading": "きょうはとてもつかれたので、はやくねます。",
+        "romaji": "Kyou wa totemo tsukareta node, hayaku nemasu.",
+        "english": "I'm very tired today, so I'm going to bed early."
       },
       {
-        "japanese": "丁寧に話すと相手に好印象を与えられます。",
-        "reading": "ていねいにはなすとあいてにこういんしょうをあたえられます。",
-        "romaji": "Teinei ni hanasu to aite ni kouinshou wo ataeraremasu.",
-        "english": "Speaking politely gives the other person a good impression of you."
+        "japanese": "友達との約束を守ることが大切です。",
+        "reading": "ともだちとのやくそくをまもることがたいせつです。",
+        "romaji": "Tomodachi to no yakusoku wo mamoru koto ga taisetsu desu.",
+        "english": "It is important to keep promises with your friends."
       }
     ]
   },
   "ai_news": [
     {
-      "title": "EU Council and Parliament Agree to Simplify AI Rules",
-      "source": "Council of the EU",
-      "summary": "The European Council presidency and Parliament reached a provisional agreement to streamline AI regulations, including postponing the deadline for national AI regulatory sandboxes to August 2027. The deal also shortens the grace period for providers to implement transparency solutions for AI-generated content from 6 months to 3 months. This marks a significant step in shaping the EU AI Act's enforcement landscape.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
-      "relevance": "This shapes how AI products and services will be governed and deployed across one of the world's largest regulatory jurisdictions."
+      "title": "Anthropic Overtakes OpenAI in Revenue, Hitting $30 Billion Annualized Run Rate",
+      "source": "VentureBeat",
+      "summary": "Anthropic announced its annualized revenue run rate surged to $30 billion by April 2026, surpassing OpenAI's $24–25 billion. The growth — an 80x increase from $87 million in early 2024 — was driven heavily by enterprise API adoption and its agentic coding tool Claude Code, which hit $1 billion in annualized revenue within six months of launch.",
+      "url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth",
+      "relevance": "Signals that enterprise-focused agentic AI tools are now the dominant revenue driver in the AI industry, overtaking consumer-facing products like ChatGPT."
     },
     {
-      "title": "Global AI Adoption Rises to 17.8% of Working-Age Population — UAE Leads at 70.1%",
-      "source": "Microsoft On the Issues",
-      "summary": "Microsoft's Q1 2026 global AI diffusion report shows AI usage climbed from 16.3% to 17.8% of the world's working-age population. The UAE leads all nations at 70.1% adoption, while the United States climbed to 21st globally with a 31.3% usage rate. The report highlights widening gaps between AI-leading and AI-lagging nations.",
-      "url": "https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/",
-      "relevance": "Tracks the real-world adoption velocity of AI across economies and reveals which countries are gaining or losing competitive ground."
+      "title": "DeepSeek Releases V4-Flash: Frontier-Level AI at a Fraction of the Cost",
+      "source": "DeepSeek API Docs / Simon Willison",
+      "summary": "DeepSeek released V4-Flash on April 24, 2026 — a 284-billion parameter Mixture-of-Experts model that only activates 13 billion parameters per inference, with a 1 million token context window. It is MIT-licensed and open-source, priced at roughly $0.14/$0.28 per million tokens — approximately 90x cheaper than GPT-5.5 on output.",
+      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
+      "relevance": "Demonstrates that open-source AI models can now match frontier proprietary models at dramatically lower cost, reshaping enterprise AI economics."
     },
     {
-      "title": "Stanford AI Index 2026: US and China Nearly Tied at Top of AI Performance Rankings",
-      "source": "Stanford HAI",
-      "summary": "The 2026 Stanford AI Index reveals that China has nearly erased the United States' lead in AI model performance, with US and Chinese models trading places at the top of benchmarks multiple times since early 2025. As of March 2026, Anthropic's leading model holds only a 2.7% performance edge. The report covers 12 key takeaways about the current state of global AI.",
-      "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
-      "relevance": "The narrowing US-China AI gap has major implications for technology leadership, national strategy, and enterprise AI procurement decisions."
+      "title": "Five Eyes Alliance Issues First Joint Agentic AI Security Guidance",
+      "source": "The Register / CyberScoop",
+      "summary": "Cybersecurity agencies from the US (CISA, NSA), UK, Australia, Canada, and New Zealand jointly published a 30-page guidance document warning that agentic AI systems carry significant security risks, including privilege escalation, unintended behavior, and cascading failures across interconnected agents. They recommend incremental deployment, Zero Trust architecture, and mandatory human oversight.",
+      "url": "https://www.theregister.com/2026/05/04/five_eyes_agentic_ai_recommendations/",
+      "relevance": "The first coordinated international government response to agentic AI risk, setting a security baseline that enterprises deploying AI agents will likely be expected to follow."
     },
     {
-      "title": "NVIDIA Unveils Open Isaac GR00T Models for Physical AI and Robotics",
-      "source": "NVIDIA Blog",
-      "summary": "NVIDIA released new open Isaac GR00T models that enable robots to understand natural language instructions and execute complex multi-step tasks using vision-language-action reasoning. NVIDIA Cosmos world models also generate large-scale synthetic training data for robotics. The release was timed with National Robotics Week 2026 and positions physical AI as a major frontier.",
-      "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
-      "relevance": "Open physical AI models lower the barrier to robotics development and accelerate the convergence of large language models with real-world automation."
+      "title": "Stanford AI Index 2026: Global AI Adoption Reaches 17.8% of Working-Age Population",
+      "source": "IEEE Spectrum / Stanford University",
+      "summary": "Stanford's 2026 AI Index reports that global AI usage grew from 16.3% to 17.8% of the world's working-age population in Q1 2026. The report also highlights that AI performance on complex benchmarks is plateauing, costs of deploying AI have dropped dramatically, and AI investment continues to concentrate in the US and China.",
+      "url": "https://spectrum.ieee.org/state-of-ai-index-2026",
+      "relevance": "Provides the most comprehensive annual snapshot of where AI stands globally — covering adoption, investment, policy, and technical progress — essential for strategic planning."
     },
     {
-      "title": "AI Energy Crisis: Data Centers Now Use as Much Power as the State of New York",
-      "source": "MIT Technology Review",
-      "summary": "AI data center power capacity has surged to 29.6 GW — roughly equivalent to powering the entire state of New York at peak demand. GPT-4o inference alone may consume water exceeding the drinking needs of 1.2 million people annually. The report identifies AI energy and water consumption as a critical sustainability challenge for the industry in 2026.",
-      "url": "https://www.technologyreview.com/2026/04/21/1135643/10-ai-artificial-intelligence-trends-technologies-research-2026/",
-      "relevance": "The environmental footprint of AI infrastructure is becoming a key constraint on scaling, regulatory scrutiny, and corporate sustainability commitments."
+      "title": "Nature Study: Human Scientists Still Outperform Best AI Agents on Complex Research Tasks",
+      "source": "Nature",
+      "summary": "A study published in Nature found that even the most advanced AI agents significantly underperform human scientists on complex, multi-step scientific tasks requiring creativity, domain reasoning, and experimental design. While AI excels at narrow sub-tasks, the gap in holistic scientific problem-solving remains large.",
+      "url": "https://www.nature.com/articles/d41586-026-01199-z",
+      "relevance": "Provides an important counterpoint to AI hype by quantifying where human expertise still decisively leads, informing realistic expectations for AI in research and R&D settings."
     }
   ],
   "sfdc_news": [
     {
-      "title": "Salesforce Spring 2026 Release: Agentforce Builder and Agentic Enterprise Search Go Live",
+      "title": "Salesforce Spring 2026 Release: Agentforce Builder and Agentic Enterprise Search",
       "source": "Salesforce",
-      "summary": "Salesforce's Spring 2026 release introduces Agentforce Builder, a conversational workspace for building and testing production-ready AI agents. The release also debuts Agentic Enterprise Search, which unifies search, collaboration, and action across 200+ external data sources powered by Data 360. Additional highlights include Agentforce Voice for Financial Services and a native Geographic Information System for field workers.",
+      "summary": "Salesforce's Spring '26 release introduces Agentforce Builder, a conversational workspace for building and testing AI agents with low-code and pro-code options. Agentic Enterprise Search unifies searching and action across 200+ external data sources, while Agentic Order Routing allows operations managers to automate order rerouting via AI prompts.",
       "url": "https://www.salesforce.com/news/stories/spring-2026-product-release-announcement/",
-      "relevance": "Directly impacts how Salesforce customers can automate business workflows and deploy AI agents across sales, service, and field operations."
+      "relevance": "Directly impacts how Salesforce users can deploy autonomous AI agents across sales, service, and operations workflows."
     },
     {
-      "title": "Salesforce Acquires Qualified and Momentum to Expand Agentic AI and Revenue Intelligence",
+      "title": "Salesforce Acquires Momentum to Boost Agentforce 360 and Slack for Enterprise Sales",
       "source": "Salesforce",
-      "summary": "Salesforce signed definitive agreements to acquire Qualified, a provider of agentic AI marketing solutions, and Momentum, a conversational insights and revenue orchestration platform. The acquisitions are designed to let customers rapidly deploy AI-powered marketing and sales agents. These moves are part of Salesforce's broader FY26 Q4 strategic push into agentic automation.",
+      "summary": "In February 2026, Salesforce signed a definitive agreement to acquire Momentum, a San Francisco-based startup. The acquisition is aimed at enhancing Agentforce 360 and Slack capabilities specifically for enterprise sales teams, deepening AI-driven workflow automation within the Salesforce ecosystem.",
       "url": "https://www.salesforce.com/news/stories/fy26-q4-highlights/",
-      "relevance": "Expands Salesforce's AI agent capabilities into marketing and revenue orchestration, which could affect how teams using SFDC manage pipeline and campaigns."
+      "relevance": "Expands Salesforce's AI-native sales tooling and tightens integration between Agentforce and Slack for enterprise customers."
     },
     {
-      "title": "Braze Launches Full Two-Way Shopify Integration with Product Metafields for Deeper Personalization",
-      "source": "Braze",
-      "summary": "Braze announced a complete two-way data flow with Shopify, enabling marketers to sync rich product attributes — including metafields, tags, and collections — directly into Braze for deeper personalization. This eCommerce enhancement also includes Content Optimizer, an AI-driven Canvas step that automatically generates and tests message variants. These updates are aimed at helping retail and eCommerce marketers move faster and improve campaign ROI.",
-      "url": "https://www.braze.com/resources/articles/ecommerce-product-enhancements",
-      "relevance": "Strengthens Braze's position as a real-time CRM platform for eCommerce, enabling more granular customer segmentation and automated content testing."
-    },
-    {
-      "title": "Amplitude Introduces Agentic AI Analytics with Global Agent and Specialized Product Agents",
+      "title": "Amplitude Introduces Agentic AI Analytics for the Next Era of Product Experiences",
       "source": "Amplitude",
-      "summary": "Amplitude launched a suite of AI agents that continuously monitor product usage, identify issues, and recommend actions in real time. The Global Agent lets teams ask complex analytics questions in plain language — it builds dashboards, investigates root causes, and takes action directly in Amplitude. The release also includes MCP integrations connecting Amplitude's behavioral data to tools like Anthropic, OpenAI, Cursor, Figma, and GitHub.",
+      "summary": "Amplitude launched a suite of AI agents in February 2026 that continuously analyze product usage, surface insights, and recommend real-time actions. The Global Agent allows teams to ask complex questions in plain language, auto-build dashboards, and investigate root causes across funnels and experiments. MCP updates also bring behavioral data into tools like Notion, Figma, GitHub, and Cursor.",
       "url": "https://amplitude.com/press/amplitude-introduces-agentic-ai-analytics-for-the-next-era-of-product-experiences",
-      "relevance": "Transforms Amplitude from a passive analytics tool into an active AI advisor, enabling product teams to get automated insights and recommended actions without manual analysis."
+      "relevance": "Transforms Amplitude from a passive analytics tool into an active AI decision-making layer embedded across product and engineering workflows."
     },
     {
-      "title": "Amplitude Launches AI Assistant: In-Product Support Agent with Behavior-Aware Walkthroughs",
-      "source": "Amplitude / Yahoo Finance",
-      "summary": "Amplitude introduced an embedded AI Assistant that guides users when they get stuck inside any product experience, offering context-aware responses and step-by-step walkthroughs. The assistant connects every support interaction to activation, retention, and conversion metrics in real time. Alongside this, Amplitude launched Agent Analytics — a new system to measure AI agent quality at scale and trace failures across prompts, tools, and context.",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/amplitude-launches-ai-assistant-help-130000732.html",
-      "relevance": "Enables product teams to reduce drop-off and support costs by embedding intelligent, personalized guidance directly into their products while measuring its impact on business outcomes."
+      "title": "Braze Launches Two-Way Shopify Data Sync and eCommerce Enhancements",
+      "source": "Braze",
+      "summary": "Braze announced a complete two-way data integration with Shopify in March 2026, enabling marketers to sync Shopify product attributes (metafields, tags, collections) directly into Braze for deeper personalization. Real-time Braze engagement data also flows back to Shopify, creating a closed-loop customer data pipeline for eCommerce teams.",
+      "url": "https://www.braze.com/resources/articles/ecommerce-product-enhancements",
+      "relevance": "Strengthens Braze's position as a core CRM engagement platform for retail and eCommerce brands using Shopify as their commerce backbone."
+    },
+    {
+      "title": "Amplitude Launches AI Visibility 2.0: Sentiment Analysis and AI Perception Tracking",
+      "source": "Amplitude",
+      "summary": "Released on April 29, 2026, AI Visibility 2.0 goes beyond basic brand presence checks in AI search results. It now tracks how AI models talk about your product, surfaces sentiment and recommendations, and closes the loop by measuring how perception changes over time. Data export and MCP integration are included for actionable follow-through.",
+      "url": "https://amplitude.com/platform-updates",
+      "relevance": "Gives product and marketing teams a new tool to monitor and improve how their product is represented in AI-driven search and recommendation surfaces."
+    }
+  ],
+  "claude_news": [
+    {
+      "title": "Introducing Claude Opus 4.7",
+      "source": "Anthropic",
+      "summary": "Anthropic released Claude Opus 4.7, now generally available across all Claude products and the API. The model brings significant improvements in advanced software engineering and complex coding tasks, along with substantially better vision capabilities at higher image resolution. Pricing remains the same as Opus 4.6 at $5 per million input tokens and $25 per million output tokens.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "relevance": "Opus 4.7 is Anthropic's most capable flagship model update to date, directly advancing Claude's coding and vision abilities for enterprise and developer users."
+    },
+    {
+      "title": "Anthropic Updates Claude Managed Agents with Three New Features",
+      "source": "9to5Mac",
+      "summary": "Anthropic announced three new features for Claude Managed Agents, with the headline addition being 'dreaming' — a research preview that extends Claude's memory by reviewing past sessions to identify patterns and enable agents to self-improve over time. This marks a significant step toward persistent, self-optimizing AI agents. The update signals Anthropic's push to make agentic Claude workflows more autonomous and context-aware.",
+      "url": "https://9to5mac.com/2026/05/07/anthropic-updates-claude-managed-agents-with-three-new-features/",
+      "relevance": "Managed Agents with persistent memory ('dreaming') represent a major leap in Claude's agentic capabilities, enabling longer-horizon autonomous task execution."
+    },
+    {
+      "title": "Anthropic Launches Claude Design, a New Product for Creating Quick Visuals",
+      "source": "TechCrunch",
+      "summary": "Anthropic launched Claude Design, an experimental product that allows users to generate visuals including prototypes, slides, and one-pagers directly within Claude. Powered by Claude Opus 4.7, it is available as a research preview for Pro, Max, Team, and Enterprise subscribers. The launch positions Claude as a direct competitor to design-focused AI tools.",
+      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
+      "relevance": "Claude Design expands Anthropic's product surface into creative and visual work, broadening Claude's utility well beyond text and code tasks."
+    },
+    {
+      "title": "Claude Mythos Preview: A Security-Specialized Language Model",
+      "source": "Anthropic (red.anthropic.com)",
+      "summary": "Anthropic previewed Claude Mythos, a new general-purpose language model that demonstrates exceptional capability in computer security tasks. The model is hosted on Anthropic's red-team research domain, indicating it is purpose-built for security research and offensive/defensive cybersecurity use cases. This is one of the first domain-specialized variants of Claude to be publicly previewed.",
+      "url": "https://red.anthropic.com/2026/mythos-preview/",
+      "relevance": "Claude Mythos signals Anthropic's move into specialized domain models, with security as the first focus area — relevant to enterprise and government customers."
+    },
+    {
+      "title": "Anthropic Doubles Usage Limits and Expands Claude Code with Redesigned Desktop App",
+      "source": "Releasebot / Anthropic",
+      "summary": "Anthropic doubled Claude Code and API rate limits for Pro, Max, Team, and Enterprise tiers, and removed peak-hour reductions for Pro and Max users. Alongside this, Anthropic released a redesigned Claude Code desktop app featuring a new session sidebar, drag-and-drop workspace, integrated terminal and file editor, SSH support on Mac, and an 'auto mode' for safer long-running tasks with fewer interruptions. These changes make Claude Code significantly more usable for heavy, production-level workflows.",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "relevance": "Higher limits and an improved desktop app lower friction for teams adopting Claude Code as a core development tool, accelerating enterprise adoption."
     }
   ]
 }

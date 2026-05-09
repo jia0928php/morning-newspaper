@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Morning Newspaper</title>
+  <style>
+    /* ── Reset & Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f0f2f5; color: #1a1a2e; }
+
+    /* ── Header ── */
+    .header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #fff;
+      padding: 20px 16px 16px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header h1 { font-size: 1.25rem; font-weight: 700; letter-spacing: 0.5px; }
+    .header .date { font-size: 0.8rem; opacity: 0.7; margin-top: 4px; }
+
+    /* ── Tab nav ── */
+    .nav {
+      display: flex;
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+      position: sticky;
+      top: 68px;
+      z-index: 99;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .nav::-webkit-scrollbar { display: none; }
+    .tab-btn {
+      flex: 1;
+      min-width: 110px;
+      padding: 11px 8px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-size: 0.8rem;
+      color: #6b7280;
+      border-bottom: 3px solid transparent;
+      white-space: nowrap;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .tab-btn.active { color: #1a1a2e; border-bottom-color: #1a1a2e; font-weight: 600; }
+
+    /* ── Sections ── */
+    .section { display: none; padding: 16px; max-width: 600px; margin: 0 auto; }
+    .section.active { display: block; }
+    .section-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: #9ca3af;
+      margin: 20px 0 10px;
+    }
+    .section-label:first-child { margin-top: 4px; }
+
+    /* ── Japanese cards ── */
+    .jp-card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 10px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+    }
+    .jp-word {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      line-height: 1.2;
+    }
+    .jp-sentence .jp-word { font-size: 1.3rem; }
+    .jp-sub {
+      font-size: 0.85rem;
+      color: #6b7280;
+      margin-top: 4px;
+      line-height: 1.5;
+    }
+    .jp-meaning {
+      font-size: 0.95rem;
+      color: #374151;
+      margin-top: 6px;
+    }
+    .audio-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: #ef4444;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      padding: 7px 18px;
+      margin-top: 10px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: background 0.15s, transform 0.1s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .audio-btn:active { background: #b91c1c; transform: scale(0.97); }
+    .audio-btn.speaking { background: #16a34a; }
+
+    /* ── News cards ── */
+    .news-card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 10px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+      border-left: 4px solid #1A56DB;
+    }
+    .news-card.sfdc { border-left-color: #00A76A; }
+    .news-rank { font-size: 0.7rem; font-weight: 700; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.5px; }
+    .news-title { font-size: 0.97rem; font-weight: 700; margin: 5px 0 3px; line-height: 1.4; color: #1a1a2e; }
+    .news-source { font-size: 0.78rem; color: #9ca3af; }
+    .news-summary { font-size: 0.88rem; color: #4b5563; margin: 8px 0 4px; line-height: 1.55; }
+    .news-relevance { font-size: 0.8rem; color: #6b7280; font-style: italic; margin-bottom: 6px; }
+    .news-link { font-size: 0.8rem; color: #1A56DB; text-decoration: none; font-weight: 600; }
+    .news-card.sfdc .news-link { color: #00875A; }
+
+    /* ── States ── */
+    .loading, .empty {
+      text-align: center;
+      padding: 50px 20px;
+      color: #9ca3af;
+      font-size: 0.95rem;
+    }
+    .loading::before { content: "⏳ "; }
+    .error-msg {
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      border-radius: 10px;
+      padding: 16px;
+      color: #b91c1c;
+      font-size: 0.88rem;
+      margin: 12px 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>☀️ Ka Pin's Morning Newspaper</h1>
+  <div class="date" id="date-display">Loading…</div>
+</div>
+
+<nav class="nav">
+  <button class="tab-btn active" onclick="showTab('japanese', this)">🇯🇵 Japanese</button>
+  <button class="tab-btn"        onclick="showTab('ai-news',  this)">🤖 AI News</button>
+  <button class="tab-btn"        onclick="showTab('sfdc-news',this)">💼 SFDC / Braze</button>
+</nav>
+
+<div id="japanese"  class="section active"><div class="loading">Loading Japanese content…</div></div>
+<div id="ai-news"   class="section"><div class="loading">Loading AI news…</div></div>
+<div id="sfdc-news" class="section"><div class="loading">Loading SFDC / Braze / Amplitude news…</div></div>
+
+<script>
+/* ── Tab switching ── */
+function showTab(id, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+
+/* ── Audio (Web Speech API) ── */
+function speakText(btn) {
+  if (!('speechSynthesis' in window)) {
+    alert('Audio not supported in this browser. Try Safari or Chrome.');
+    return;
+  }
+  window.speechSynthesis.cancel();
+  const text = btn.dataset.text;
+  const lang = btn.dataset.lang || 'ja-JP';
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = lang;
+  utter.rate = 0.8;
+  btn.classList.add('speaking');
+  btn.textContent = '🔊 Playing…';
+  utter.onend = () => {
+    btn.classList.remove('speaking');
+    btn.textContent = '🔊 Hear it';
+  };
+  window.speechSynthesis.speak(utter);
+}
+
+/* ── Renderers ── */
+function renderJapanese(data) {
+  const el = document.getElementById('japanese');
+  if (!data) { el.innerHTML = '<div class="error-msg">Japanese content not available today.</div>'; return; }
+
+  let html = '<p class="section-label">📖 Words (5)</p>';
+  (data.words || []).forEach(w => {
+    html += `
+    <div class="jp-card">
+      <div class="jp-word">${esc(w.word)}</div>
+      <div class="jp-sub">${esc(w.reading)} &nbsp;·&nbsp; ${esc(w.romaji)}</div>
+      <div class="jp-meaning">${esc(w.meaning)}</div>
+      <button class="audio-btn" data-text="${esc(w.word)}" data-lang="ja-JP" onclick="speakText(this)">🔊 Hear it</button>
+    </div>`;
+  });
+
+  html += '<p class="section-label" style="margin-top:24px">✍️ Sentences (5)</p>';
+  (data.sentences || []).forEach(s => {
+    html += `
+    <div class="jp-card jp-sentence">
+      <div class="jp-word">${esc(s.japanese)}</div>
+      <div class="jp-sub">${esc(s.reading)}</div>
+      <div class="jp-sub">${esc(s.romaji)}</div>
+      <div class="jp-meaning">${esc(s.english)}</div>
+      <button class="audio-btn" data-text="${esc(s.japanese)}" data-lang="ja-JP" onclick="speakText(this)">🔊 Hear it</button>
+    </div>`;
+  });
+
+  el.innerHTML = html;
+}
+
+function renderNews(newsArr, sectionId, cardClass) {
+  const el = document.getElementById(sectionId);
+  if (!newsArr || newsArr.length === 0) {
+    el.innerHTML = '<div class="empty">No news available yet. Check back after the next generation.</div>';
+    return;
+  }
+  let html = `<p class="section-label">Top ${newsArr.length} stories today</p>`;
+  newsArr.forEach((item, i) => {
+    html += `
+    <div class="news-card ${cardClass}">
+      <div class="news-rank"># ${i + 1}</div>
+      <div class="news-title">${esc(item.title)}</div>
+      <div class="news-source">📰 ${esc(item.source || 'Unknown')}</div>
+      <div class="news-summary">${esc(item.summary)}</div>
+      ${item.relevance ? `<div class="news-relevance">💡 ${esc(item.relevance)}</div>` : ''}
+      ${item.url ? `<a class="news-link" href="${esc(item.url)}" target="_blank" rel="noopener">Read full article →</a>` : ''}
+    </div>`;
+  });
+  el.innerHTML = html;
+}
+
+function esc(str) {
+  if (str == null) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+/* ── Load data ── */
+fetch('today.json?t=' + Date.now())
+  .then(r => {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  })
+  .then(data => {
+    document.getElementById('date-display').textContent = data.date_display || new Date().toDateString();
+    renderJapanese(data.japanese);
+    renderNews(data.ai_news,   'ai-news',   '');
+    renderNews(data.sfdc_news, 'sfdc-news', 'sfdc');
+  })
+  .catch(err => {
+    console.error(err);
+    ['japanese','ai-news','sfdc-news'].forEach(id => {
+      document.getElementById(id).innerHTML =
+        '<div class="error-msg">⚠️ Could not load today\'s content.<br>Make sure morning_news.py has run today and pushed to GitHub.</div>';
+    });
+  });
+</script>
+
+</body>
+</html>

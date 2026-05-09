@@ -1,0 +1,24 @@
+{
+  "date": "20260509",
+  "date_display": "May 09, 2026",
+  "japanese": {
+    "words": [
+      {
+        "word": "準備中",
+        "reading": "じゅんびちゅう",
+        "romaji": "junbi chuu",
+        "meaning": "Under preparation / Coming soon"
+      }
+    ],
+    "sentences": [
+      {
+        "japanese": "今日の新聞を準備しています。",
+        "reading": "きょうのしんぶんをじゅんびしています。",
+        "romaji": "Kyou no shinbun wo junbi shite imasu.",
+        "english": "We are preparing today's newspaper."
+      }
+    ]
+  },
+  "ai_news": [],
+  "sfdc_news": []
+}

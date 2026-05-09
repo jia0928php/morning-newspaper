@@ -118,7 +118,9 @@
       box-shadow: 0 1px 6px rgba(0,0,0,0.07);
       border-left: 4px solid #1A56DB;
     }
-    .news-card.sfdc { border-left-color: #00A76A; }
+    .news-card.sfdc   { border-left-color: #00A76A; }
+    .news-card.claude { border-left-color: #7C3AED; }
+    .news-card.claude .news-link { color: #7C3AED; }
     .news-rank { font-size: 0.7rem; font-weight: 700; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.5px; }
     .news-title { font-size: 0.97rem; font-weight: 700; margin: 5px 0 3px; line-height: 1.4; color: #1a1a2e; }
     .news-source { font-size: 0.78rem; color: #9ca3af; }
@@ -154,14 +156,16 @@
 </div>
 
 <nav class="nav">
-  <button class="tab-btn active" onclick="showTab('japanese', this)">🇯🇵 Japanese</button>
-  <button class="tab-btn"        onclick="showTab('ai-news',  this)">🤖 AI News</button>
-  <button class="tab-btn"        onclick="showTab('sfdc-news',this)">💼 SFDC / Braze</button>
+  <button class="tab-btn active" onclick="showTab('japanese',    this)">🇯🇵 Japanese</button>
+  <button class="tab-btn"        onclick="showTab('ai-news',     this)">🤖 AI News</button>
+  <button class="tab-btn"        onclick="showTab('sfdc-news',   this)">💼 SFDC / Braze</button>
+  <button class="tab-btn"        onclick="showTab('claude-news', this)">🟣 Claude</button>
 </nav>
 
-<div id="japanese"  class="section active"><div class="loading">Loading Japanese content…</div></div>
-<div id="ai-news"   class="section"><div class="loading">Loading AI news…</div></div>
-<div id="sfdc-news" class="section"><div class="loading">Loading SFDC / Braze / Amplitude news…</div></div>
+<div id="japanese"    class="section active"><div class="loading">Loading Japanese content…</div></div>
+<div id="ai-news"     class="section"><div class="loading">Loading AI news…</div></div>
+<div id="sfdc-news"   class="section"><div class="loading">Loading SFDC / Braze / Amplitude news…</div></div>
+<div id="claude-news" class="section"><div class="loading">Loading Claude / Anthropic news…</div></div>
 
 <script>
 /* ── Tab switching ── */
@@ -264,12 +268,13 @@ fetch('today.json?t=' + Date.now())
   .then(data => {
     document.getElementById('date-display').textContent = data.date_display || new Date().toDateString();
     renderJapanese(data.japanese);
-    renderNews(data.ai_news,   'ai-news',   '');
-    renderNews(data.sfdc_news, 'sfdc-news', 'sfdc');
+    renderNews(data.ai_news,     'ai-news',     '');
+    renderNews(data.sfdc_news,   'sfdc-news',   'sfdc');
+    renderNews(data.claude_news, 'claude-news', 'claude');
   })
   .catch(err => {
     console.error(err);
-    ['japanese','ai-news','sfdc-news'].forEach(id => {
+    ['japanese','ai-news','sfdc-news','claude-news'].forEach(id => {
       document.getElementById(id).innerHTML =
         '<div class="error-msg">⚠️ Could not load today\'s content.<br>Make sure morning_news.py has run today and pushed to GitHub.</div>';
     });

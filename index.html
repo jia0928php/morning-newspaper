@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
   <title>Morning Newspaper</title>
   <style>
     /* ── Reset & Base ── */
@@ -21,8 +23,19 @@
       top: 0;
       z-index: 100;
     }
+    .header-row { display: flex; align-items: center; justify-content: center; gap: 10px; }
     .header h1 { font-size: 1.25rem; font-weight: 700; letter-spacing: 0.5px; }
     .header .date { font-size: 0.8rem; opacity: 0.7; margin-top: 4px; }
+    .refresh-btn {
+      background: rgba(255,255,255,0.15);
+      border: none; border-radius: 50%; width: 32px; height: 32px;
+      color: #fff; font-size: 1rem; cursor: pointer; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.15s, transform 0.3s;
+    }
+    .refresh-btn:active { background: rgba(255,255,255,0.3); }
+    .refresh-btn.spinning { animation: spin 0.8s linear; }
+    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 
     /* ── Tab nav ── */
     .nav {
@@ -151,7 +164,10 @@
 <body>
 
 <div class="header">
-  <h1>☀️ Ka Pin's Morning Newspaper</h1>
+  <div class="header-row">
+    <h1>☀️ Ka Pin's Morning Newspaper</h1>
+    <button class="refresh-btn" id="refresh-btn" onclick="refreshData()" title="Refresh">↻</button>
+  </div>
   <div class="date" id="date-display">Loading…</div>
 </div>
 
@@ -260,25 +276,47 @@ function esc(str) {
 }
 
 /* ── Load data ── */
-fetch('today.json?t=' + Date.now())
-  .then(r => {
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    return r.json();
-  })
-  .then(data => {
-    document.getElementById('date-display').textContent = data.date_display || new Date().toDateString();
-    renderJapanese(data.japanese);
-    renderNews(data.ai_news,     'ai-news',     '');
-    renderNews(data.sfdc_news,   'sfdc-news',   'sfdc');
-    renderNews(data.claude_news, 'claude-news', 'claude');
-  })
-  .catch(err => {
-    console.error(err);
-    ['japanese','ai-news','sfdc-news','claude-news'].forEach(id => {
-      document.getElementById(id).innerHTML =
-        '<div class="error-msg">⚠️ Could not load today\'s content.<br>Make sure morning_news.py has run today and pushed to GitHub.</div>';
+function refreshData() {
+  const btn = document.getElementById('refresh-btn');
+  btn.classList.add('spinning');
+  btn.disabled = true;
+
+  fetch('today.json?t=' + Date.now())
+    .then(r => {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(data => {
+      document.getElementById('date-display').textContent = data.date_display || new Date().toDateString();
+      renderJapanese(data.japanese);
+      renderNews(data.ai_news,     'ai-news',     '');
+      renderNews(data.sfdc_news,   'sfdc-news',   'sfdc');
+      renderNews(data.claude_news, 'claude-news', 'claude');
+    })
+    .catch(err => {
+      console.error(err);
+      ['japanese','ai-news','sfdc-news','claude-news'].forEach(id => {
+        document.getElementById(id).innerHTML =
+          '<div class="error-msg">⚠️ Could not load today\'s content.<br>Try tapping ↻ to refresh.</div>';
+      });
+    })
+    .finally(() => {
+      setTimeout(() => {
+        btn.classList.remove('spinning');
+        btn.disabled = false;
+      }, 600);
     });
-  });
+}
+
+/* Auto-refresh when app comes to foreground (home screen icon tap) */
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') {
+    refreshData();
+  }
+});
+
+/* Initial load */
+refreshData();
 </script>
 
 </body>

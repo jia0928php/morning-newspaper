@@ -245,14 +245,27 @@ function renderJapanese(data) {
   el.innerHTML = html;
 }
 
+function parseDateStr(s) {
+  if (!s) return 0;
+  const months = {january:1,february:2,march:3,april:4,may:5,june:6,
+                  july:7,august:8,september:9,october:10,november:11,december:12};
+  const m = s.toLowerCase().match(/(\w+)\s+(\d{1,2}),?\s+(\d{4})/);
+  if (m) return parseInt(m[3])*10000 + (months[m[1]]||0)*100 + parseInt(m[2]);
+  const m2 = s.match(/(\d{4})-(\d{2})-(\d{2})/);
+  if (m2) return parseInt(m2[1])*10000 + parseInt(m2[2])*100 + parseInt(m2[3]);
+  return 0;
+}
+
 function renderNews(newsArr, sectionId, cardClass) {
   const el = document.getElementById(sectionId);
   if (!newsArr || newsArr.length === 0) {
     el.innerHTML = '<div class="empty">No news available yet. Check back after the next generation.</div>';
     return;
   }
-  let html = `<p class="section-label">Top ${newsArr.length} stories today</p>`;
-  newsArr.forEach((item, i) => {
+  // Sort latest first
+  const sorted = [...newsArr].sort((a,b) => parseDateStr(b.published_date) - parseDateStr(a.published_date));
+  let html = `<p class="section-label">Top ${sorted.length} stories today</p>`;
+  sorted.forEach((item, i) => {
     html += `
     <div class="news-card ${cardClass}">
       <div class="news-rank"># ${i + 1}</div>

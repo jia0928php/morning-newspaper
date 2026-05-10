@@ -4,193 +4,193 @@
   "japanese": {
     "words": [
       {
-        "word": "散歩",
-        "reading": "さんぽ",
-        "romaji": "sanpo",
-        "meaning": "a walk, a stroll"
+        "word": "笑顔",
+        "reading": "えがお",
+        "romaji": "egao",
+        "meaning": "smile; smiling face"
       },
       {
-        "word": "買い物",
-        "reading": "かいもの",
-        "romaji": "kaimono",
-        "meaning": "shopping"
+        "word": "朝ご飯",
+        "reading": "あさごはん",
+        "romaji": "asagohan",
+        "meaning": "breakfast"
       },
       {
-        "word": "料理",
-        "reading": "りょうり",
-        "romaji": "ryouri",
-        "meaning": "cooking, cuisine, a dish"
+        "word": "窓",
+        "reading": "まど",
+        "romaji": "mado",
+        "meaning": "window"
       },
       {
-        "word": "疲れる",
-        "reading": "つかれる",
-        "romaji": "tsukareru",
-        "meaning": "to get tired, to become exhausted"
+        "word": "図書館",
+        "reading": "としょかん",
+        "romaji": "toshokan",
+        "meaning": "library"
       },
       {
-        "word": "友達",
-        "reading": "ともだち",
-        "romaji": "tomodachi",
-        "meaning": "friend"
+        "word": "道",
+        "reading": "みち",
+        "romaji": "michi",
+        "meaning": "road; path; way"
       }
     ],
     "sentences": [
       {
-        "japanese": "毎朝、公園で散歩します。",
-        "reading": "まいあさ、こうえんでさんぽします。",
-        "romaji": "Maiasa, kouen de sanpo shimasu.",
-        "english": "I take a walk in the park every morning."
+        "japanese": "彼女はいつも笑顔です。",
+        "reading": "かのじょはいつもえがおです。",
+        "romaji": "Kanojo wa itsumo egao desu.",
+        "english": "She always has a smile on her face."
       },
       {
-        "japanese": "スーパーで買い物をしました。",
-        "reading": "スーパーでかいものをしました。",
-        "romaji": "Suupaa de kaimono wo shimashita.",
-        "english": "I went shopping at the supermarket."
+        "japanese": "朝ご飯を食べましたか？",
+        "reading": "あさごはんをたべましたか？",
+        "romaji": "Asagohan wo tabemashita ka?",
+        "english": "Did you eat breakfast?"
       },
       {
-        "japanese": "母の料理はとてもおいしいです。",
-        "reading": "ははのりょうりはとてもおいしいです。",
-        "romaji": "Haha no ryouri wa totemo oishii desu.",
-        "english": "My mother's cooking is very delicious."
+        "japanese": "窓を開けてもいいですか？",
+        "reading": "まどをあけてもいいですか？",
+        "romaji": "Mado wo akete mo ii desu ka?",
+        "english": "Is it okay if I open the window?"
       },
       {
-        "japanese": "今日の仕事でとても疲れました。",
-        "reading": "きょうのしごとでとてもつかれました。",
-        "romaji": "Kyou no shigoto de totemo tsukaremashita.",
-        "english": "I got very tired from work today."
+        "japanese": "図書館で本を借りました。",
+        "reading": "としょかんでほんをかりました。",
+        "romaji": "Toshokan de hon wo karimashita.",
+        "english": "I borrowed a book from the library."
       },
       {
-        "japanese": "友達と一緒に映画を見に行きます。",
-        "reading": "ともだちといっしょにえいがをみにいきます。",
-        "romaji": "Tomodachi to issho ni eiga wo mi ni ikimasu.",
-        "english": "I am going to watch a movie together with a friend."
+        "japanese": "この道はどこに続きますか？",
+        "reading": "このみちはどこにつづきますか？",
+        "romaji": "Kono michi wa doko ni tsuzukimasu ka?",
+        "english": "Where does this road lead?"
       }
     ]
   },
   "ai_news": [
     {
-      "title": "OpenAI Releases GPT-5.5, Its Most Intuitive and Autonomous Model Yet",
-      "source": "OpenAI",
+      "title": "OpenAI Releases GPT-5.5 Instant as ChatGPT's New Default Model",
+      "source": "TechCrunch",
+      "published_date": "May 5, 2026",
+      "summary": "OpenAI replaced GPT-5.3 Instant with GPT-5.5 Instant as the default ChatGPT model, reporting 52.5% fewer hallucinations on high-stakes topics like medicine, law, and finance. The update also delivers roughly 30% more concise responses, an AIME 2025 math score jump from 65.4 to 81.2, and enhanced personalization using past chats and connected files for Plus and Pro users.",
+      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "relevance": "A significant accuracy and efficiency milestone for the world's most-used LLM platform, with measurable hallucination reduction that directly affects enterprise deployment confidence."
+    },
+    {
+      "title": "Apple Plans to Make iOS 27 a 'Choose Your Own Adventure' of AI Models",
+      "source": "TechCrunch",
+      "published_date": "May 5, 2026",
+      "summary": "Apple announced that iOS 27 will allow users to select from competing AI providers — including Google Gemini and others — to power Siri, Writing Tools, and Image Playground via a new 'Extensions' system, ending OpenAI's two-year exclusivity on iPhones. The change is expected to be formally unveiled at WWDC on June 8, 2026.",
+      "url": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
+      "relevance": "Opens a massive new distribution channel for competing AI models and shifts the competitive landscape by making model choice a mainstream consumer decision on the world's most-used mobile platform."
+    },
+    {
+      "title": "OpenAI to Spend $50 Billion on Computing in 2026, Brockman Says",
+      "source": "Bloomberg",
+      "published_date": "May 5, 2026",
+      "summary": "OpenAI co-founder Greg Brockman disclosed during testimony in the Musk v. Altman trial that the company will spend $50 billion on computing infrastructure in 2026 alone — up from $30 million in 2017 — with a cumulative target of $600 billion through 2030. The figure underscores the extreme capital intensity now required to remain competitive at the AI frontier.",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-05/openai-to-spend-50-billion-on-computing-in-2026-brockman-says",
+      "relevance": "The unprecedented scale of compute investment signals that frontier AI development is becoming a capital-moat business, with major implications for which organizations can realistically compete."
+    },
+    {
+      "title": "Cohere Acquires Germany's Aleph Alpha in $20B Sovereign AI Deal",
+      "source": "TechCrunch",
+      "published_date": "April 25, 2026",
+      "summary": "Canadian AI company Cohere acquired German AI startup Aleph Alpha in a $20 billion deal anchored by a $600 million investment from Schwarz Group, creating a transatlantic AI powerhouse focused on 'sovereign AI' — systems where governments and enterprises retain full control over their data without routing it through US hyperscalers. Both the Canadian and German governments backed the announcement, and the combined entity targets regulated sectors including finance, healthcare, and defense.",
+      "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+      "relevance": "The deal validates sovereign AI as a major enterprise market segment and establishes a credible non-US, non-China alternative for organizations with strict data residency and regulatory requirements."
+    },
+    {
+      "title": "DeepSeek V4 Pro and Flash Released with MIT License and 1M-Token Context",
+      "source": "DeepSeek API Docs / Hugging Face",
       "published_date": "April 24, 2026",
-      "summary": "OpenAI launched GPT-5.5, described as its smartest and most intuitive model, excelling at coding, research, data analysis, and autonomous multi-step task execution. GPT-5.5 and GPT-5.5 Pro became available via the API on April 24, 2026. The model is designed to carry out end-to-end tasks with minimal user guidance, marking a significant step toward fully autonomous AI agents.",
-      "url": "https://openai.com/index/introducing-gpt-5-5/",
-      "relevance": "GPT-5.5 sets a new capability baseline for agentic AI and coding tasks, directly shaping how development teams evaluate and adopt LLM infrastructure in production."
-    },
-    {
-      "title": "DeepSeek Drops V4 Preview: Trillion-Parameter Open-Source Model Built on Huawei Chips",
-      "source": "CNN Business",
-      "published_date": "April 24, 2026",
-      "summary": "Chinese AI lab DeepSeek unveiled V4 Preview, a trillion-parameter open-source model built on Huawei Ascend chips and priced at just $0.14 per million input tokens for the Flash variant. The release came less than 24 hours after GPT-5.5, intensifying US-China AI competition. DeepSeek V4 promises to rival frontier models from OpenAI, Anthropic, and Google.",
-      "url": "https://www.cnn.com/2026/04/24/tech/chinas-ai-deepseek-v4-intl-hnk",
-      "relevance": "DeepSeek V4's extremely low pricing and open-source availability puts pressure on US AI providers and gives ML teams a high-quality, cost-effective alternative to proprietary frontier models."
-    },
-    {
-      "title": "Stanford 2026 AI Index: 88% Enterprise Adoption, SWE-Bench Near 100%, $581B Corporate Investment",
-      "source": "Stanford HAI",
-      "published_date": "April 2026",
-      "summary": "Stanford's 2026 AI Index reveals that 88% of organizations now use AI, generative AI reached 53% consumer adoption faster than any prior technology, and global corporate AI investment hit $581.69 billion in 2025, up 130% year-over-year. On SWE-bench Verified, autonomous coding performance surged from 60% to near 100% in a single year. The report also flags that today's most powerful models are among the least transparent, with training details increasingly kept secret.",
-      "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
-      "relevance": "This annual report gives AI/ML professionals a data-grounded benchmark of where AI actually stands in 2026, covering adoption, investment, and capability milestones across the industry."
-    },
-    {
-      "title": "Frontier Model Wave: Gemini 3.1 Pro, Llama 4, Qwen 3, and Gemma 4 All Launch in Six Weeks",
-      "source": "AI Tools Recap",
-      "published_date": "April 2026",
-      "summary": "Google's Gemini 3.1 Pro, Meta's Llama 4, Alibaba's Qwen 3, and Google's Gemma 4 all launched within a single six-week window in April 2026, creating an unprecedented cluster of frontier model releases. Open-source models from Llama, Mistral, Qwen, and DeepSeek now match or beat closed-source frontier models on multiple benchmarks. US labs still lead overall, but China's gap is rapidly narrowing.",
-      "url": "https://aitoolsrecap.com/Blog/ai-model-releases-may-2026-what-to-expect",
-      "relevance": "The simultaneous release of multiple competing frontier models gives AI/ML teams more deployment options, drives down costs, and accelerates the mainstream shift toward open-source LLMs."
-    },
-    {
-      "title": "Agentic AI Hits Historic Milestones: Autonomous Coding and Computer-Use Benchmarks Surge",
-      "source": "Air Street Press",
-      "published_date": "May 2026",
-      "summary": "The State of AI May 2026 report highlights that agentic AI has recorded the most extreme capability gains of any AI category. SWE-bench Verified, measuring autonomous software engineering, rose from 60% to near 100% in a single year. The OSWorld benchmark now tracks AI agents autonomously operating full desktop environments, and one research system independently synthesized 19,822 tools, outperforming proprietary baselines across 23 benchmarks.",
-      "url": "https://press.airstreet.com/p/state-of-ai-may-2026",
-      "relevance": "These results signal that AI coding and task agents are approaching production-readiness for complex real-world workflows, fundamentally changing how engineering teams plan resourcing and tooling."
+      "summary": "DeepSeek released two open-weight MoE models — V4-Pro (1.6T total / 49B active parameters) and V4-Flash (284B / 13B active) — both under MIT license with a 1-million-token context window. V4-Flash is priced at $0.14 per million input tokens, making it the cheapest frontier-class API available, while V4-Pro is offered at roughly one-seventh the cost of comparable closed models on coding workloads.",
+      "url": "https://api-docs.deepseek.com/news/news260424",
+      "relevance": "DeepSeek V4 resets the price-performance frontier for open-weight LLMs and puts direct pressure on closed-model pricing, accelerating enterprise adoption of cost-efficient AI."
     }
   ],
   "sfdc_news": [
     {
-      "title": "Salesforce Spring '26 Release: Agentforce Builder, Flow Generation V2, and Agent Script Now GA",
-      "source": "Salesforce",
-      "published_date": "January 2026",
-      "summary": "Salesforce's Spring '26 release introduces Agentforce Builder for conversational agent creation in a single workspace, Flow Generation V2 (now GA) enabling admins to build complex automation flows via natural language prompts, and Agent Script — a new human-readable scripting language combining AI with deterministic code control. Agentic Enterprise Search now unifies search, collaboration, and action across 200+ external data sources with multi-agent coordination.",
-      "url": "https://www.salesforce.com/news/stories/spring-2026-product-release-announcement/",
-      "relevance": "These updates significantly lower the technical barrier to building Salesforce AI agents, enabling non-developer admins to automate complex workflows using plain-language prompts and guided scripting."
+      "title": "Salesforce Summer '26 Release Begins Rolling Out to Sandboxes",
+      "source": "Salesforce Ben",
+      "published_date": "May 9, 2026",
+      "summary": "Salesforce's Summer '26 release began deploying to most sandboxes on May 9, 2026. Key highlights include the new Agentforce DX MCP Server, the Agentforce Vibe IDE, Agentforce for Field Service and IT Service, and Sales Cloud being rebranded as Agentforce Sales. Agentforce agents can now also surface insights and take actions directly within Slack.",
+      "url": "https://www.salesforceben.com/salesforce-summer-26-release-date-preview-information/",
+      "relevance": "Salesforce admins and users should begin sandbox testing immediately as production orgs will follow shortly — Agentforce capabilities are expanding significantly across Sales, Service, and Field Service workflows."
     },
     {
-      "title": "Salesforce Launches Agent Fabric Control Plane with Guided Determinism for Multi-Vendor AI Governance",
-      "source": "Salesforce",
-      "published_date": "May 2026",
-      "summary": "Salesforce announced new Agent Fabric capabilities featuring a control plane with guided determinism, giving enterprises precise governance over how multi-vendor AI agents interact, escalate, and make decisions. The update addresses growing enterprise demand for auditability and risk control in AI-orchestrated processes. Agent Fabric is designed to help large organizations safely scale AI automation across heterogeneous agent ecosystems from multiple vendors.",
-      "url": "https://www.salesforce.com/news/stories/agent-fabric-control-plane-announcement/",
-      "relevance": "For Salesforce architects and admins managing complex Agentforce deployments, Agent Fabric governance controls are essential for meeting enterprise compliance, risk, and audit requirements."
+      "title": "Amplitude Announces First Quarter 2026 Financial Results and AI Agent Expansion",
+      "source": "Business Wire",
+      "published_date": "May 6, 2026",
+      "summary": "Amplitude reported Q1 2026 revenue of $93.5 million, up 17% year-over-year, with Annual Recurring Revenue reaching $374 million. Management highlighted the rollout of Agent Analytics, a Global Agent for productivity, an AI Assistant chatbot embedded in the platform, and an automated CLI Wizard for deployment. The company is actively expanding its AI-powered analytics capabilities across its product suite.",
+      "url": "https://www.businesswire.com/news/home/20260506195712/en/Amplitude-Announces-First-Quarter-2026-Financial-Results",
+      "relevance": "Amplitude's strong growth signals continued investment in AI-driven analytics features that can help product and marketing teams move from insight to action faster."
     },
     {
-      "title": "Braze Launches BrazeAI Operator, Agent Console, and Creative Studio with Figma and Canva Integration",
+      "title": "Amplitude Launches AI Visibility 2.0 to Help Brands Win in AI Search",
+      "source": "Amplitude",
+      "published_date": "April 29, 2026",
+      "summary": "Amplitude released AI Visibility 2.0, which goes beyond tracking whether a brand appears in AI-generated answers and now measures how AI tools describe and position a product — including sentiment analysis, actionable recommendations, data export, and MCP integration. The update closes the loop between perception monitoring and performance improvement, all within the Amplitude platform.",
+      "url": "https://amplitude.com/press/amplitude-launches-ai-visibility-to-help-marketers-win-in-ai-search",
+      "relevance": "Marketing and product teams using Amplitude can now track brand perception in AI search results (like ChatGPT or Gemini) and act on those insights directly within their existing analytics workflow."
+    },
+    {
+      "title": "Salesforce Summer '26: Full Agentforce and Flow Feature Breakdown",
+      "source": "Automation Champion",
+      "published_date": "April 29, 2026",
+      "summary": "A comprehensive breakdown of the Salesforce Summer '26 release reveals major Agentforce expansions including the Agentforce DX MCP Server, Vibe IDE for agent development, and voice-based visit logging. Eleven significant Flow updates are also included, covering automation enhancements across Sales, Service, HR, and Field Service clouds. The release solidifies Salesforce's pivot toward an agentic enterprise platform.",
+      "url": "https://automationchampion.com/2026/04/29/salesforce-summer26-release-quick-summary-2/",
+      "relevance": "Salesforce administrators and developers should review these Agentforce and Flow changes ahead of production rollout to plan testing, training, and any required configuration updates."
+    },
+    {
+      "title": "Braze Delivers Agentic AI Capabilities: BrazeAI Operator, Agent Console, and Creative Studio",
       "source": "Business Wire",
       "published_date": "April 23, 2026",
-      "summary": "Braze unveiled BrazeAI Operator and BrazeAI Agent Console, giving marketers an in-dashboard AI assistant to build campaigns, deploy agents at scale, and generate individualized content in real time. Creative Studio connects design and campaign execution in one place with direct integrations to Figma and Canva, removing friction between creative teams and delivery. BrazeAI Decisioning Studio now also supports EU data hosting on Google Cloud, addressing regional data residency requirements.",
+      "summary": "Braze announced general availability of BrazeAI Operator (an in-dashboard AI assistant for building campaigns and agents), BrazeAI Agent Console (a centralized hub to deploy AI agents that personalize campaigns in real time), and Braze Creative Studio (which integrates with Figma and Canva for seamless asset import). EU hosting on Google Cloud for BrazeAI Decisioning Studio was also confirmed.",
       "url": "https://www.businesswire.com/news/home/20260423931363/en/Braze-Delivers-Powerful-New-Agentic-AI-Capabilities-That-Transform-How-Marketers-Build-Personalize-and-Deliver-Customer-Experiences",
-      "relevance": "Braze's agentic AI tools directly transform how CRM and lifecycle marketing teams build, personalize, and deliver customer experiences, with less dependence on engineering resources."
-    },
-    {
-      "title": "Amplitude Reports Q1 2026 Financial Results, Reinforces AI-Native Analytics Platform Strategy",
-      "source": "Amplitude Investor Relations",
-      "published_date": "May 6, 2026",
-      "summary": "Amplitude released its Q1 2026 financial results on May 6, 2026, continuing to position itself as an AI-native digital analytics and product optimization platform. The company has been expanding ecosystem partnerships, including its deep integration with Braze for behavioral analytics-driven campaign personalization. Amplitude's recent product updates focus on AI-powered behavioral insights to help digital teams optimize products and customer journeys faster.",
-      "url": "https://investors.amplitude.com/news-events/news-releases",
-      "relevance": "Amplitude's financial performance and product roadmap directly affect analytics and marketing teams using Amplitude alongside Braze and Salesforce for data-driven customer engagement decisions."
-    },
-    {
-      "title": "Salesforce Agentforce 360: New AI Agents for Account Management, Prospecting, and Voice for Financial Services",
-      "source": "Salesforce",
-      "published_date": "May 2026",
-      "summary": "Salesforce expanded its Agentforce 360 suite with AI agents for Account Management, giving sellers always-fresh account intelligence pulled from Salesforce, third-party data, and conversation history. Agentforce Prospecting runs 24/7 to build qualified lead pipelines autonomously. Agentforce Voice for Financial Services deploys AI agents to resolve common banking and collections inquiries at scale, without adding headcount.",
-      "url": "https://www.salesforce.com/agentforce/what-is-new/",
-      "relevance": "Agentforce 360 expansions bring AI-native automation into core sales, prospecting, and financial services workflows, reducing manual effort for Salesforce users in sales and banking roles."
+      "relevance": "Braze customers — especially marketing teams — can now build, manage, and personalize campaigns using AI agents without heavy reliance on technical resources, and can import design assets directly from Figma or Canva."
     }
   ],
   "claude_news": [
     {
-      "title": "Anthropic Launches Ten Finance AI Agents, Moody's Integration, and Full Microsoft 365 Embedding for Wall Street",
+      "title": "Anthropic Inks $1.8 Billion Computing Deal With Akamai",
+      "source": "Bloomberg",
+      "published_date": "May 8, 2026",
+      "summary": "Anthropic has signed a $1.8 billion computing deal with cloud services provider Akamai Technologies to meet surging demand for its AI software. This is part of a broader infrastructure push that also includes multi-gigawatt agreements with Amazon, Google, Microsoft, and Fluidstack. The deals reflect Anthropic's aggressive capacity expansion as its revenue and user base grow rapidly.",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai",
+      "relevance": "Massive infrastructure investment signals Anthropic is scaling aggressively to meet enterprise demand for Claude, which should improve availability and reduce rate limits for users."
+    },
+    {
+      "title": "Anthropic Grew 80-Fold in a Single Quarter, Now Renting Elon Musk's Data Center to Cope",
+      "source": "Fortune",
+      "published_date": "May 8, 2026",
+      "summary": "Anthropic's annualized revenue has reached $30 billion — a three-fold increase year-over-year — driven largely by enterprise customers such as Uber and Netflix adopting Claude Code. To handle this explosive growth, Anthropic has signed a deal with SpaceX to access over 220,000 NVIDIA GPUs at the Colossus 1 data center. The company has also doubled API and Claude Code rate limits for Pro, Max, Team, and Enterprise tiers.",
+      "url": "https://fortune.com/2026/05/08/anthropic-80fold-growth-quarter-renting-elon-musk-data-center/",
+      "relevance": "Anthropic's hypergrowth and expanded compute capacity directly translate to higher usage limits and better reliability for all Claude users and API customers."
+    },
+    {
+      "title": "Anthropic Will Get Compute Capacity from Elon Musk's SpaceX",
+      "source": "Axios",
+      "published_date": "May 6, 2026",
+      "summary": "Anthropic has struck a deal with SpaceX to use all of the compute capacity at the Colossus 1 data center, giving Anthropic access to more than 300 megawatts of new GPU power. The partnership also includes an expressed interest in developing orbital AI compute capacity. This deal has led Anthropic to immediately double rate limits across its consumer and enterprise plans.",
+      "url": "https://www.axios.com/2026/05/06/anthropic-spacex-elon-musk-compute",
+      "relevance": "The SpaceX compute deal is the direct reason Claude's usage limits were doubled in May 2026, giving developers and enterprise users significantly more access to the models."
+    },
+    {
+      "title": "Live Blog: Code w/ Claude 2026 — Claude Opus 4.7, Redesigned Claude Code App, and Multi-Agent Features",
+      "source": "Simon Willison's Weblog",
+      "published_date": "May 6, 2026",
+      "summary": "Anthropic's Code w/ Claude 2026 event showcased Claude Opus 4.7 with improved vision, coding, and long-running task capabilities. The company unveiled a redesigned Claude Code desktop app featuring a session sidebar, drag-and-drop workspace, integrated terminal, SSH support on Mac, and faster diffs. Multi-agent orchestration and Claude Code routines were also announced as key new capabilities.",
+      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/",
+      "relevance": "The Code w/ Claude 2026 event marks a major product milestone, with the new Claude Code desktop app and Opus 4.7 directly impacting developers who rely on Claude for software engineering tasks."
+    },
+    {
+      "title": "Anthropic Deepens Push into Wall Street with New AI Agents, Full Microsoft 365 Integration, and Moody's Data Partnership",
       "source": "Fortune",
       "published_date": "May 5, 2026",
-      "summary": "Anthropic launched roughly ten pre-built AI agents for financial services workflows including pitchbooks, earnings analysis, credit memos, underwriting, KYC, and AML investigations. The agents operate directly inside Excel, PowerPoint, and Word via Claude for Microsoft 365. A new Moody's integration brings proprietary credit ratings on 600M+ companies into Claude, and FIS built an AML agent on Claude that compresses anti-money-laundering investigations from hours to minutes.",
+      "summary": "Anthropic is launching a suite of pre-built AI agents targeting the world's largest banks, with Claude Opus 4.7 positioned as the flagship model for financial services work. The push includes full Microsoft 365 integration and a data partnership with Moody's, making Claude deeply embedded in financial analysis workflows. Separately, Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company to bring Claude into mid-sized enterprise operations.",
       "url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/",
-      "relevance": "Anthropic's finance agent suite signals a major enterprise expansion — Claude is moving from a developer API to an embedded operating layer for banks and asset managers, with implications for any firm evaluating Claude for Work."
-    },
-    {
-      "title": "Anthropic Releases Claude Opus 4.7 with Higher-Resolution Vision and Top Finance Agent Benchmark Score",
-      "source": "Anthropic",
-      "published_date": "April 16, 2026",
-      "summary": "Claude Opus 4.7 launched as Anthropic's most capable model for complex, long-running tasks, with improved autonomous software engineering performance and higher-resolution image understanding. It leads Vals AI's Finance Agent benchmark at 64.4% and tops the GDPval-AA evaluation for economically valuable knowledge work. Opus 4.7 is available across all Claude products, API, Amazon Bedrock, Google Cloud Vertex AI, and Microsoft Foundry at unchanged pricing from Opus 4.6.",
-      "url": "https://www.anthropic.com/news/claude-opus-4-7",
-      "relevance": "Claude Opus 4.7 is the current most capable Claude model for enterprise, agentic, and financial workflows — directly relevant to API users, Claude for Work subscribers, and teams on Amazon Bedrock or Vertex AI."
-    },
-    {
-      "title": "Anthropic Signs SpaceX Colossus 1 Compute Deal and Doubles Claude Code Rate Limits",
-      "source": "Anthropic",
-      "published_date": "May 7, 2026",
-      "summary": "Anthropic secured full access to SpaceX's Colossus 1 data center, providing 220,000+ NVIDIA GPUs and over 300 megawatts of new compute capacity. Directly as a result, Anthropic doubled Claude Code rate limits for Pro, Max, Team, and Enterprise plans, removed peak-hour throttling for Pro and Max, and raised Opus API token limits by more than 10x (from 30K to 500K input tokens per minute for Tier 1 users).",
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "relevance": "The doubled rate limits and removal of peak-hour throttling directly improve the daily experience for Claude Code users and high-volume API integrations that previously hit capacity ceilings."
-    },
-    {
-      "title": "Anthropic Publishes Natural Language Autoencoders Research, Advancing Claude Interpretability",
-      "source": "Creati.ai",
-      "published_date": "May 8, 2026",
-      "summary": "Anthropic published research on Natural Language Autoencoders (NLAEs), a technique for representing Claude's internal model activations as human-readable natural language rather than raw vectors. The work is part of Anthropic's mechanistic interpretability program and builds on earlier sparse autoencoder research, moving interpretability tools closer to practical deployment. The goal is to make AI model reasoning more transparent, auditable, and explainable to human reviewers.",
-      "url": "https://creati.ai/ai-news/2026-05-08/anthropic-publishes-natural-language-autoencoders-research/",
-      "relevance": "Interpretability research directly addresses AI safety, explainability, and regulatory compliance concerns that enterprise teams and regulated industries require before making long-term Claude deployment commitments."
-    },
-    {
-      "title": "Anthropic Targets June IPO at ~$900B Valuation, Backed by Landmark Compute Commitments from Amazon, Google, and Microsoft",
-      "source": "CoinDesk",
-      "published_date": "May 6, 2026",
-      "summary": "Reports indicate Anthropic is targeting a June 2026 IPO at a valuation approaching $900 billion, supported by a portfolio of massive infrastructure deals: a 5GW compute agreement with Amazon (including nearly 1GW online by end of 2026), a 5GW deal with Google and Broadcom coming online in 2027, a $30 billion Azure capacity partnership with Microsoft and NVIDIA, and a $50 billion US AI infrastructure commitment with Fluidstack.",
-      "url": "https://www.coindesk.com/tech/2026/05/06/anthropic-signs-elon-musk-s-spacex-for-colossus-1-compute-ahead-of-june-ipo",
-      "relevance": "Anthropic's IPO trajectory and extraordinary compute scale signal long-term financial stability and strategic ambition — important context for enterprises evaluating Claude as a critical, multi-year AI vendor."
+      "relevance": "Anthropic's financial services expansion and Microsoft 365 integration show Claude moving beyond developer tools into mainstream enterprise business workflows, broadening its real-world use cases."
     }
   ]
 }

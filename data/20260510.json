@@ -7,175 +7,190 @@
         "word": "約束",
         "reading": "やくそく",
         "romaji": "yakusoku",
-        "meaning": "promise; appointment; arrangement"
+        "meaning": "promise; appointment; commitment"
       },
       {
-        "word": "疲れる",
-        "reading": "つかれる",
-        "romaji": "tsukareru",
-        "meaning": "to get tired; to become exhausted"
+        "word": "確認",
+        "reading": "かくにん",
+        "romaji": "kakunin",
+        "meaning": "confirmation; verification; checking"
       },
       {
-        "word": "電車",
-        "reading": "でんしゃ",
-        "romaji": "densha",
-        "meaning": "train; electric train"
-      },
-      {
-        "word": "近所",
-        "reading": "きんじょ",
-        "romaji": "kinjo",
-        "meaning": "neighborhood; vicinity"
+        "word": "連絡",
+        "reading": "れんらく",
+        "romaji": "renraku",
+        "meaning": "contact; communication; getting in touch"
       },
       {
         "word": "準備",
         "reading": "じゅんび",
         "romaji": "junbi",
         "meaning": "preparation; getting ready"
+      },
+      {
+        "word": "遅刻",
+        "reading": "ちこく",
+        "romaji": "chikoku",
+        "meaning": "being late; tardiness"
       }
     ],
     "sentences": [
       {
-        "japanese": "朝ごはんを食べてから、仕事に行きます。",
-        "reading": "あさごはんをたべてから、しごとにいきます。",
-        "romaji": "Asa gohan wo tabete kara, shigoto ni ikimasu.",
-        "english": "I go to work after eating breakfast."
+        "japanese": "明日の会議の時間を確認してもいいですか？",
+        "reading": "あしたのかいぎのじかんをかくにんしてもいいですか？",
+        "romaji": "Ashita no kaigi no jikan wo kakunin shite mo ii desu ka?",
+        "english": "May I confirm the time of tomorrow's meeting?"
       },
       {
-        "japanese": "今日はとても疲れたので、早く寝たいです。",
-        "reading": "きょうはとてもつかれたので、はやくねたいです。",
-        "romaji": "Kyou wa totemo tsukareta node, hayaku netai desu.",
-        "english": "I'm very tired today, so I want to go to bed early."
+        "japanese": "電車が遅れて、遅刻してしまいました。",
+        "reading": "でんしゃがおくれて、ちこくしてしまいました。",
+        "romaji": "Densha ga okurete, chikoku shite shimaimashita.",
+        "english": "The train was delayed, so I ended up being late."
       },
       {
-        "japanese": "友達と映画を見る約束があります。",
-        "reading": "ともだちとえいがをみるやくそくがあります。",
-        "romaji": "Tomodachi to eiga wo miru yakusoku ga arimasu.",
-        "english": "I have plans to watch a movie with a friend."
+        "japanese": "何かあったらすぐに連絡してください。",
+        "reading": "なにかあったらすぐにれんらくしてください。",
+        "romaji": "Nanika attara sugu ni renraku shite kudasai.",
+        "english": "Please contact me immediately if anything comes up."
       },
       {
-        "japanese": "駅まで電車で二十分かかります。",
-        "reading": "えきまででんしゃでにじゅっぷんかかります。",
-        "romaji": "Eki made densha de nijuppun kakarimasu.",
-        "english": "It takes twenty minutes to get to the station by train."
+        "japanese": "旅行の準備はもう終わりましたか？",
+        "reading": "りょこうのじゅんびはもうおわりましたか？",
+        "romaji": "Ryokou no junbi wa mou owarimashita ka?",
+        "english": "Have you finished preparing for the trip yet?"
       },
       {
-        "japanese": "旅行の準備はもう終わりましたか。",
-        "reading": "りょこうのじゅんびはもうおわりましたか。",
-        "romaji": "Ryokou no junbi wa mou owarimashita ka.",
-        "english": "Have you already finished preparing for the trip?"
+        "japanese": "友達と週末に会う約束をしました。",
+        "reading": "ともだちとしゅうまつにあうやくそくをしました。",
+        "romaji": "Tomodachi to shuumatsu ni au yakusoku wo shimashita.",
+        "english": "I made a promise to meet a friend on the weekend."
       }
     ]
   },
   "ai_news": [
     {
-      "title": "AI Layoffs Accelerate in May 2026 as Companies Restructure Around Artificial Intelligence",
-      "source": "Yahoo Finance",
-      "summary": "Major tech companies including Coinbase, Cloudflare, Upwork, and Snap announced sweeping layoffs in May 2026, explicitly citing AI-driven restructuring. Coinbase cut roughly 700 employees (14% of staff), while Snap laid off approximately 1,000 workers, with CEO Evan Spiegel noting that AI allows smaller teams to achieve the same output. This marks a significant acceleration in workforce transformation driven by AI adoption.",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/layoffs-accelerate-may-2026-firms-040430218.html",
-      "relevance": "Demonstrates the real-world economic and labor market disruption caused by rapid AI advancement and enterprise adoption."
+      "title": "DeepSeek Releases V4 Model Preview, Rivaling Closed Frontier Models at a Fraction of the Cost",
+      "source": "CNBC",
+      "published_date": "April 24, 2026",
+      "summary": "Chinese AI startup DeepSeek released a preview of its long-awaited V4 large language model in two variants: V4-Pro (1.6 trillion parameters) and V4-Flash (284 billion parameters). V4-Pro matches GPT-5.5 and Claude Opus 4.7 on agentic benchmarks at significantly lower cost, with Flash priced at just $0.14 per million input tokens. Both models are open-source under MIT licenses and integrate tightly with Huawei's Ascend AI chips, intensifying US-China AI competition.",
+      "url": "https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html",
+      "relevance": "DeepSeek V4 reshapes the cost-performance equation for AI teams choosing between open-source and closed frontier models."
     },
     {
-      "title": "AI Breakthrough Cuts Energy Use by 100x While Boosting Accuracy",
-      "source": "ScienceDaily",
-      "summary": "Researchers unveiled a radically more efficient AI approach combining neural networks with symbolic reasoning, slashing energy consumption by up to 100 times compared to conventional methods while actually improving model accuracy. The breakthrough addresses one of the most pressing concerns about scaling AI infrastructure sustainably. This development could have major implications for the economics and environmental footprint of AI deployment.",
-      "url": "https://www.sciencedaily.com/releases/2026/04/260405003952.htm",
-      "relevance": "A 100x energy reduction could make large-scale AI deployment vastly more sustainable and economically viable."
-    },
-    {
-      "title": "Inside the AI Index: China Has Nearly Erased the U.S. AI Lead, 2026 Stanford Report Finds",
-      "source": "Stanford HAI (Human-Centered AI)",
-      "summary": "Stanford's 2026 AI Index report reveals that China has nearly closed the gap with the United States in frontier AI model performance, with U.S. and Chinese models now trading places at the top of performance rankings and Anthropic's leading model ahead by just 2.7%. Global AI usage among the working-age population rose from 16.3% to 17.8% in early 2026. The report also highlights that AI data center power capacity has surged to 29.6 GW, raising serious environmental concerns.",
+      "title": "Stanford HAI Releases 2026 AI Index: SWE-Bench Nears 100%, Transparency Hits New Lows",
+      "source": "Stanford HAI",
+      "published_date": "April 2026",
+      "summary": "Stanford's annual AI Index reveals frontier models now match or exceed human baselines on PhD-level science and competition mathematics, with SWE-bench Verified scores climbing from 60% to nearly 100% in a single year. Organizational AI adoption reached 88% and generative AI achieved 53% population adoption in just three years — faster than the PC or internet. However, model transparency dropped sharply, with the Foundation Model Transparency Index falling from 58 to 40 points as labs increasingly withhold training data and parameter counts.",
       "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
-      "relevance": "The narrowing U.S.-China AI gap signals a pivotal shift in global AI competitiveness with wide geopolitical and commercial consequences."
+      "relevance": "The Stanford AI Index is the definitive annual benchmark for understanding where AI capabilities, adoption, and risks stand — essential reading for AI/ML strategy teams."
     },
     {
-      "title": "New Brain-Like Nanoelectronic Chip Could Slash AI Energy Use by 70%",
-      "source": "ScienceDaily",
-      "summary": "Researchers engineered a new nanoelectronic device using a modified form of hafnium oxide that mimics how biological neurons process and store information simultaneously. The neuromorphic chip could reduce AI inference energy consumption by up to 70% compared to conventional silicon hardware. The development represents a meaningful step toward hardware that is purpose-built for AI workloads at scale.",
-      "url": "https://www.sciencedaily.com/releases/2026/04/260422044633.htm",
-      "relevance": "Neuromorphic hardware breakthroughs are critical for making edge AI and large-scale inference economically and environmentally feasible."
+      "title": "Cloudflare Builds 'Infire' — Custom AI Inference Engine for Running LLMs Across Multiple GPUs",
+      "source": "InfoQ",
+      "published_date": "May 2026",
+      "summary": "Cloudflare developed a proprietary AI inference engine called Infire that runs large language models across multiple GPUs more efficiently, reduces memory usage, and starts models significantly faster. The engine is designed to serve LLMs at scale across Cloudflare's global edge network, reducing latency and infrastructure costs for AI-powered applications. This positions Cloudflare as a direct competitor to AWS Bedrock and Google Vertex AI for LLM hosting.",
+      "url": "https://www.infoq.com/news/2026/05/cloudflare-llm-infrastructure/",
+      "relevance": "Cloudflare's custom LLM runtime signals a shift where network providers are building inference infrastructure — directly impacting how AI inference is priced and deployed at the edge."
     },
     {
-      "title": "OpenAI's GPT-5.4 'Thinking' Model Scores at Human Expert Level on Economic Benchmark",
-      "source": "LLM Stats / Crescendo AI",
-      "summary": "OpenAI's recently released GPT-5.4 'Thinking' model achieved 83.0% on the GDPVal benchmark, placing it at or above the level of human experts on economically valuable tasks. Alongside this, Google released Gemma 4, an open model under the Apache 2.0 license designed for advanced reasoning and agentic workflows. These releases mark a new milestone in the race toward models capable of autonomous, expert-level economic contributions.",
-      "url": "https://llm-stats.com/ai-news",
-      "relevance": "Frontier models crossing the human-expert threshold on economic tasks signals the onset of AI as a direct productivity and labor substitute."
+      "title": "MIT Researchers Develop New Method to Increase LLM Training Efficiency Using Smaller Predictive Models",
+      "source": "MIT News",
+      "published_date": "February 2026",
+      "summary": "MIT researchers developed a technique that automatically trains a smaller, faster model to predict the outputs of larger reasoning LLMs, reducing the computational work the reasoning model must do and significantly accelerating training. The method requires no changes to the base model architecture and can be applied post-hoc, making it broadly applicable to existing frontier models. The approach could meaningfully reduce the GPU hours and cost required to train state-of-the-art reasoning systems.",
+      "url": "https://news.mit.edu/2026/new-method-could-increase-llm-training-efficiency-0226",
+      "relevance": "Lower training costs and faster iteration cycles could democratize access to large-scale LLM development beyond the largest well-funded labs."
+    },
+    {
+      "title": "State of AI May 2026: Agentic AI Records Most Extreme Gains, Open-Source Closes Gap with Closed Models",
+      "source": "Air Street Press",
+      "published_date": "May 2026",
+      "summary": "The latest State of AI report highlights that agentic AI — systems that autonomously use computers and write software — has recorded the most dramatic benchmark improvements of any AI category over the past 12 months, with OSWorld and SWE-Bench showing rapid gains. Open-source models from Llama, Mistral, Qwen, and DeepSeek now match or beat closed frontier models on multiple benchmarks. U.S. labs still lead most evaluations, but the gap with Chinese labs on coding and reasoning tasks is rapidly narrowing.",
+      "url": "https://press.airstreet.com/p/state-of-ai-may-2026",
+      "relevance": "The agentic AI surge is the most actionable trend for ML engineers — agent frameworks and benchmarks are now the primary competitive differentiator between models."
     }
   ],
   "sfdc_news": [
     {
-      "title": "Amplitude Introduces Agentic AI Analytics for the Next Era of Product Experiences",
-      "source": "Amplitude Investor Relations / BusinessWire",
-      "summary": "Amplitude launched a suite of AI agents that continuously analyze product usage, identify performance gaps, and recommend real-time actions. The launch includes a Global Agent, four specialized agents (monitoring, session review, experimentation, and feedback), and MCP integrations connecting behavioral data to tools like Anthropic, OpenAI, Figma, and GitHub. Teams can ask complex questions in plain language and receive instant answers, dashboard builds, and automated next steps.",
-      "url": "https://amplitude.com/press/amplitude-introduces-agentic-ai-analytics-for-the-next-era-of-product-experiences",
-      "relevance": "This positions Amplitude as a direct competitor in the agentic AI space, raising the stakes for Salesforce's Agentforce and Braze's AI-driven engagement tools."
+      "title": "Braze Launches BrazeAI Operator, Agent Console, and Creative Studio — Full Agentic AI Suite for Marketers",
+      "source": "BusinessWire",
+      "published_date": "April 23, 2026",
+      "summary": "Braze released three major AI products: BrazeAI Operator (an in-dashboard AI assistant that builds campaigns and entire user journeys autonomously), BrazeAI Agent Console (a centralized hub for building and deploying marketing AI agents), and Braze Creative Studio (which integrates directly with Figma and Canva for seamless asset import without losing design fidelity). The platform now supports EU hosting for BrazeAI Decisioning Studio to meet regional data residency requirements. Early customers reported an 81% reduction in unsubscribes and a 90% increase in booking conversion rates.",
+      "url": "https://www.businesswire.com/news/home/20260423931363/en/Braze-Delivers-Powerful-New-Agentic-AI-Capabilities-That-Transform-How-Marketers-Build-Personalize-and-Deliver-Customer-Experiences",
+      "relevance": "For Braze users, these agentic tools dramatically reduce the technical expertise needed to build complex, personalized campaign journeys at scale."
     },
     {
-      "title": "Salesforce Spring 2026 Release: Agentforce Builder and Agentic Enterprise Search",
+      "title": "Salesforce Announces AI-Heavy Makeover for Slack with 30+ New Features Including Deep Research and Slackbot Memory",
+      "source": "TechCrunch",
+      "published_date": "March 31, 2026",
+      "summary": "Salesforce unveiled 30+ new AI capabilities for Slack, including deep research, web search, voice input, persistent Slackbot memory, and reusable AI skills. Slackbot is now a fully-fledged MCP client that can route tasks to Agentforce or any connected enterprise app. Enterprise teams can update Salesforce opportunities, research accounts, and trigger CRM workflows entirely through Slack conversations without switching to the Salesforce application.",
+      "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
+      "relevance": "For Salesforce and Slack users, this transforms Slack from a messaging tool into a conversational interface for the full Customer 360 — a significant workflow shift for sales and service teams."
+    },
+    {
+      "title": "TDX 2026: Salesforce Unveils Agentforce for Admins in Slack and Deep Account Research for Sales Teams",
+      "source": "Salesforce Admins Blog",
+      "published_date": "March 2026",
+      "summary": "At Salesforce TDX 2026, Salesforce announced that Agentforce is now available inside Slack using natural language to complete Salesforce Setup tasks, update opportunities, and conduct deep account research — covering business priorities and industry trends — to prepare for sales meetings. Admins can now interact with an Agentforce-powered Slackbot to take contextual CRM actions without switching between applications. The Agentforce Channel Expert agent also delivers instant expertise within Slack channels.",
+      "url": "https://admin.salesforce.com/blog/2026/tdx-announcements-agentforce-slack-updates-for-admins",
+      "relevance": "Salesforce admins and sales ops teams can now automate CRM tasks and account research directly from Slack, reducing context switching and manual data entry."
+    },
+    {
+      "title": "Amplitude Reports Q1 FY2026 Financial Results, Highlights Product Momentum in Digital Analytics",
+      "source": "Amplitude Investor Relations",
+      "published_date": "May 6, 2026",
+      "summary": "Amplitude released its Q1 2026 financial results after market close on May 6, 2026, covering platform performance and customer growth across its digital analytics and optimization suite. The announcement was accompanied by product content released May 7–8, 2026, highlighting continued investment in its core analytics and experimentation capabilities. The release reflects Amplitude's strategic position amid increasing competition from embedded analytics tools from Salesforce and other CRM platforms.",
+      "url": "https://investors.amplitude.com/news-events/news-releases",
+      "relevance": "For Amplitude users and evaluators, Q1 results provide a signal on the platform's financial health, product investment direction, and feature roadmap prioritization."
+    },
+    {
+      "title": "Salesforce Spring '26 Release: Native Agentforce AI Across Sales, Service, Commerce, and Tableau Next",
       "source": "Salesforce",
-      "summary": "Salesforce's Spring 2026 release introduced Agentforce Builder, a conversational workspace for building and refining AI agents using low-code or pro-code tools. It also launched Agentic Enterprise Search, which unifies search and action across 200+ external data sources powered by Data 360. Additional highlights include Agentforce Voice for Financial Services and a native Geographic Information System for field service workers.",
-      "url": "https://www.salesforce.com/news/stories/spring-2026-product-release-announcement/",
-      "relevance": "Salesforce's continued Agentforce expansion shows deepening investment in agentic AI across all clouds, directly challenging platforms like Amplitude and Braze for enterprise workflow ownership."
-    },
-    {
-      "title": "Amplitude AI Visibility 2.0 Launched to Track Brand Perception in AI Responses",
-      "source": "Amplitude",
-      "summary": "Amplitude released AI Visibility 2.0 on April 29, 2026, a tool designed to go beyond basic AI search presence tracking. It reveals how AI systems describe your product, surfaces sentiment and recommendations, and closes the loop by connecting perception changes to business metrics like retention and conversion. The feature integrates with MCP for broader workflow support.",
-      "url": "https://amplitude.com/platform-updates",
-      "relevance": "AI Visibility 2.0 gives Amplitude a unique competitive angle in helping brands understand and optimize how they appear in AI-generated responses, a critical emerging concern for Salesforce and Braze customers alike."
-    },
-    {
-      "title": "Braze Launches Complete Two-Way Shopify Integration and BYO WhatsApp Connector",
-      "source": "Braze",
-      "summary": "Braze unveiled a full two-way data sync with Shopify, allowing marketers to pull in rich product attributes—including metafields, tags, and collections—and push engagement data back to Shopify in real time. Separately, Braze introduced a Bring Your Own WhatsApp connector in partnership with Infobip, letting customers manage messaging costs with Infobip while leveraging Braze for segmentation and campaign orchestration.",
-      "url": "https://www.braze.com/resources/articles/ecommerce-product-enhancements",
-      "relevance": "These integrations strengthen Braze's position in eCommerce and global messaging, areas where Salesforce Marketing Cloud and Amplitude's customer journey tools also compete."
-    },
-    {
-      "title": "2026 Braze Customer Engagement Review: AI Innovation Meets the Trust Plateau",
-      "source": "Braze Investor Relations",
-      "summary": "Braze's 2026 Global Customer Engagement Review found that nearly half of consumers expect to interact with brands through AI agents by end of 2026, yet a significant trust gap persists: 93% of marketing leaders believe AI accurately understands customer needs, but only 53% of consumers agree. The report highlights the urgency for brands to build trust while scaling AI-driven personalization.",
-      "url": "https://investors.braze.com/news/news-details/2026/The-2026-Braze-Customer-Engagement-Review-AI-Innovation-Meets-the-Trust-Plateau/default.aspx",
-      "relevance": "This research directly shapes how Salesforce, Braze, and Amplitude should position their AI features—trust and transparency are becoming table-stakes differentiators in the customer engagement market."
+      "published_date": "January 2026",
+      "summary": "Salesforce's Spring '26 release introduced Agentforce integrations natively across Sales Cloud, Service Cloud, Commerce Cloud, and Tableau, with AI agents surfacing insights and completing actions inside Slack and core Salesforce apps. Key additions included Agentforce Sales, IT Service, HR Service agents, and the Agentforce Channel Expert for Slack, all designed to reduce manual CRM work and accelerate deal cycles. The release also delivered significant Flow automation and API enhancements for developers and admins.",
+      "url": "https://www.salesforce.com/news/stories/spring-2026-product-release-announcement/?bc=OTH",
+      "relevance": "Spring '26 is the most comprehensive Agentforce rollout to date — Salesforce admins should review which new agents apply to their org's existing sales and service workflows."
     }
   ],
   "claude_news": [
     {
-      "title": "Anthropic Releases Claude Opus 4.7 with Major Coding and Vision Upgrades",
-      "source": "CNBC / Anthropic",
-      "summary": "On April 16, 2026, Anthropic released Claude Opus 4.7, its most capable general model to date. It achieves a 13% improvement over Opus 4.6 on a 93-task coding benchmark and can process images at significantly higher resolution. The model is available across all Claude products, the API, Amazon Bedrock, Google Vertex AI, and Microsoft Foundry.",
+      "title": "Anthropic and SpaceX Sign Major Compute Deal — 220,000 GPUs, 300MW of Capacity, and Space Data Center Plans",
+      "source": "Anthropic / Bloomberg",
+      "published_date": "May 6, 2026",
+      "summary": "Anthropic signed an agreement to use all compute capacity at SpaceX's Colossus 1 data center in Tennessee, gaining access to over 220,000 NVIDIA H100, H200, and GB200 GPUs and 300+ megawatts of capacity within a month. Simultaneously, Anthropic doubled rate limits for Pro, Max, Team, and Enterprise plans and removed peak-hour usage restrictions that had affected reliability. The deal also includes an expressed interest in developing gigawatts of space-based compute infrastructure with SpaceX.",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "relevance": "Doubled rate limits and dramatically expanded infrastructure directly improve Claude's reliability and availability for enterprise and API users who previously hit usage caps."
+    },
+    {
+      "title": "Anthropic Deepens Push into Wall Street — Pre-Built Finance Agents, Moody's Data Partnership, and Microsoft 365 Integration",
+      "source": "Fortune",
+      "published_date": "May 5, 2026",
+      "summary": "At an invite-only financial services briefing in New York, Anthropic launched approximately ten pre-built AI agents covering banking workflows including pitchbooks, earnings analysis, credit memos, underwriting, KYC, and insurance claims. Anthropic announced full Microsoft 365 integration and a data partnership with Moody's, giving Claude direct access to financial data inside enterprise workflows. Claude Opus 4.7 topped Vals AI's Finance Agent benchmark with a score of 64.4%, leading all models on economically valuable financial knowledge work.",
+      "url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/",
+      "relevance": "Pre-built financial agents and M365 integration signal that Claude is maturing from a developer API into a deployable enterprise solution for regulated industries."
+    },
+    {
+      "title": "Introducing Claude Opus 4.7 — Anthropic's Most Capable Model with Strongest Gains in Advanced Software Engineering",
+      "source": "Anthropic",
+      "published_date": "April 16, 2026",
+      "summary": "Anthropic released Claude Opus 4.7, delivering the largest performance improvements over Opus 4.6 on the hardest software engineering tasks and topping the GDPval-AA evaluation for economically valuable knowledge work. The model includes built-in safeguards that automatically detect and block high-risk cybersecurity requests. Pricing remains unchanged at $5 per million input tokens and $25 per million output tokens, and the model is available on Anthropic API, Amazon Bedrock, and Google Cloud Vertex AI.",
       "url": "https://www.anthropic.com/news/claude-opus-4-7",
-      "relevance": "Opus 4.7 is Anthropic's flagship model release of 2026, directly advancing Claude's lead in agentic software engineering and multimodal reasoning."
+      "relevance": "Opus 4.7 sets a new standard for complex agentic coding and financial reasoning tasks, making it the recommended model for demanding enterprise and analytical workloads."
     },
     {
-      "title": "Anthropic Introduces 'Dreaming' for Claude Managed Agents — AI That Learns from Its Own Mistakes",
-      "source": "VentureBeat",
-      "summary": "On May 6, 2026, Anthropic launched a 'dreaming' feature for Claude Managed Agents that reviews past sessions, consolidates memory, removes stale data, and surfaces recurring patterns to help agents self-improve between sessions. It does not modify model weights. Legal AI company Harvey reported roughly a 6x increase in task completion rates after adopting the feature.",
-      "url": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes",
-      "relevance": "Dreaming is a novel step toward persistent, self-improving AI agents, setting Claude apart from competitors in long-running enterprise automation."
+      "title": "Anthropic Announces $1.5B AI-Native Enterprise JV with Blackstone, Hellman & Friedman, and Goldman Sachs",
+      "source": "The Next Web",
+      "published_date": "May 2026",
+      "summary": "Anthropic unveiled a $1.5 billion joint venture with Blackstone, Hellman & Friedman, and Goldman Sachs to create a new AI-native enterprise services firm designed to commercialize and deploy the pre-built financial services agents announced at its Wall Street briefing. The JV will target large-scale transformation engagements at banks and asset managers, positioning Anthropic as a full-service enterprise AI solution provider. The move directly challenges traditional consulting firms and systems integrators in the financial services sector.",
+      "url": "https://thenextweb.com/news/anthropic-financial-services-agents-claude-opus-4-7-fis",
+      "relevance": "This JV repositions Anthropic as a services competitor to large consulting firms — a strategic shift that enterprise buyers should factor into their AI vendor evaluations."
     },
     {
-      "title": "Anthropic Unveils Claude Mythos Preview — A Powerful Cybersecurity AI Kept Under Lock and Key",
-      "source": "SecurityWeek",
-      "summary": "Announced April 7, 2026, Claude Mythos Preview is a general-purpose model with extraordinary cybersecurity capabilities, able to autonomously discover and exploit zero-day vulnerabilities across major operating systems and browsers. Anthropic declined public release and instead formed Project Glasswing, an invitation-only industry consortium including AWS, Apple, Microsoft, Google, and CrowdStrike, to use Mythos for defensive vulnerability research.",
-      "url": "https://www.securityweek.com/anthropic-unveils-claude-mythos-a-cybersecurity-breakthrough-that-could-also-supercharge-attacks/",
-      "relevance": "Mythos represents Anthropic's most sensitive and potentially dual-use model yet, raising significant debate about responsible deployment of highly capable AI in security contexts."
-    },
-    {
-      "title": "Anthropic Updates Claude Managed Agents with Three New Features Including Memory and Dreaming",
-      "source": "9to5Mac",
-      "summary": "On May 7, 2026, Anthropic announced three new capabilities for Claude Managed Agents: persistent memory across sessions, the 'dreaming' refinement process, and user-controlled memory review. Together, these features enable agents to accumulate institutional knowledge over time, making them dramatically more effective at recurring enterprise workflows.",
-      "url": "https://9to5mac.com/2026/05/07/anthropic-updates-claude-managed-agents-with-three-new-features/",
-      "relevance": "This update marks a significant shift toward stateful, continuously learning AI agents in Anthropic's commercial platform."
-    },
-    {
-      "title": "Anthropic Launches Claude Design, a Collaborative Visual Creation Tool Powered by Opus 4.7",
-      "source": "Anthropic / CNBC",
-      "summary": "Alongside the Opus 4.7 launch, Anthropic debuted Claude Design under its Anthropic Labs umbrella. The product lets users collaborate with Claude to produce designs, prototypes, slide decks, and one-pagers through a generative visual workflow. It is positioned as a direct competitor to AI-assisted design tools from other major labs.",
-      "url": "https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html",
-      "relevance": "Claude Design expands Anthropic's product surface beyond text and code into the creative and visual workflow market, broadening Claude's commercial reach."
+      "title": "Snyk Embeds Anthropic's Claude to Advance AI-Powered Security for Software Development",
+      "source": "Snyk / Daily Tribune",
+      "published_date": "May 2026",
+      "summary": "Snyk announced it has embedded Anthropic's Claude models into its developer security platform to enhance AI-powered vulnerability detection and remediation across software development pipelines. The integration uses Claude to deliver context-aware security guidance, helping developers understand and fix vulnerabilities in real time within their coding environments and CI/CD workflows. This extends Claude's enterprise reach into the application security domain, complementing existing IDE and code generation integrations.",
+      "url": "https://www.daily-tribune.com/online_features/press_releases/snyk-embeds-anthropics-claude-to-advance-ai-powered-security-for-software-development/article_6d065327-a995-5f4d-bd88-1a20ce927137.html",
+      "relevance": "For engineering teams already using Snyk, this brings Claude-powered security analysis directly into the development workflow without requiring a separate AI subscription or tool switch."
     }
   ]
 }

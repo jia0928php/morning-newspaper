@@ -136,7 +136,8 @@
     .news-card.claude .news-link { color: #7C3AED; }
     .news-rank { font-size: 0.7rem; font-weight: 700; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.5px; }
     .news-title { font-size: 0.97rem; font-weight: 700; margin: 5px 0 3px; line-height: 1.4; color: #1a1a2e; }
-    .news-source { font-size: 0.78rem; color: #9ca3af; }
+    .news-meta { font-size: 0.78rem; color: #9ca3af; display: flex; gap: 8px; flex-wrap: wrap; }
+    .news-date { color: #6b7280; }
     .news-summary { font-size: 0.88rem; color: #4b5563; margin: 8px 0 4px; line-height: 1.55; }
     .news-relevance { font-size: 0.8rem; color: #6b7280; font-style: italic; margin-bottom: 6px; }
     .news-link { font-size: 0.8rem; color: #1A56DB; text-decoration: none; font-weight: 600; }
@@ -256,7 +257,10 @@ function renderNews(newsArr, sectionId, cardClass) {
     <div class="news-card ${cardClass}">
       <div class="news-rank"># ${i + 1}</div>
       <div class="news-title">${esc(item.title)}</div>
-      <div class="news-source">📰 ${esc(item.source || 'Unknown')}</div>
+      <div class="news-meta">
+        <span>📰 ${esc(item.source || 'Unknown')}</span>
+        ${item.published_date ? `<span class="news-date">· 📅 ${esc(item.published_date)}</span>` : ''}
+      </div>
       <div class="news-summary">${esc(item.summary)}</div>
       ${item.relevance ? `<div class="news-relevance">💡 ${esc(item.relevance)}</div>` : ''}
       ${item.url ? `<a class="news-link" href="${esc(item.url)}" target="_blank" rel="noopener">Read full article →</a>` : ''}
